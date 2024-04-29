@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="10" alignment="CENTER" fx:controller="net.wermann.javafx_bindingdemo.controller.BindingDemoController">
+    <Label text="One-Time Binding: "/>
+    <Label fx:id="oneTimeLabel" text=""/>
+
+    <Label text="One-Way Binding: "/>
+    <Label fx:id="oneWayLabel" text=""/>
+
+    <Label text="Two-Way Binding: "/>
+    <TextField fx:id="twoWayTextField"/>
+    <TextField fx:id="twoWayBindingTextField"/>
+</VBox>
+
+
+
